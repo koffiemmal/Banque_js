@@ -1,0 +1,22 @@
+@mixin bordureEpargne {
+    border: 1px solid red;
+}
+@mixin bordureCourant{
+    border: 2px solid blue;
+}
+@mixin bordureGold{
+    border: 2px solid green;
+}
+
+.Epargne{
+    @include bordureEpargne()
+}
+
+.Courant{
+    @include bordureCourant()
+}
+
+.Gold{
+    @include bordureGold()
+}
+
